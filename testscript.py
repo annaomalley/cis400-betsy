@@ -16,6 +16,11 @@ def get_client(uname, password):
         print '\t' + 'ERR: Connection timed out. ' + str(err)
         sys.exit(0)
 
+def insert_collection(client, connection, record):
+    new_collection = client[name]
+    post_id = new_collection.insert_one(record).inserted_id
+    print '\t...inserted into collection [' + name + ']: ' + str(post_id)
+
 def create_collection(client, name):
     new_collection = client[name]
     post_id = new_collection.insert_one({"init":1}).inserted_id
@@ -26,4 +31,3 @@ if __name__ == "__main__":
         print 'To run this script, run python testscript.py <username> <password>'
         sys.exit()
     client = get_client(sys.argv[1], sys.argv[2])
-    create_collection(client, 'games')
