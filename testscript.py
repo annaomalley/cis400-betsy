@@ -1,24 +1,29 @@
 import sys
 import pymongo
+import json
 from pymongo import MongoClient
 
-USER = 'test'
-PWD = 'testpassword'
-PORT = '27017'
-HOST_PUB_IP = '54.172.179.228' #HOST_PRIV_IP = '172-31-49-21'
-HOST = 'mongodb://'+USER+':'+PWD+'@'+HOST_PUB_IP+':'+PORT
-
-# Attempt to establish connection with a 3s timeout.
-def get_client(host):
+# Attempt to establish connection with a 5s timeout.
+def get_client(uname, password):
     try:
-        CLIENT = MongoClient(host, serverSelectionTimeoutMS=3000, connectTimeoutMS=20000)
-        print '\t' + 'attempting to establish connection to client:'
-        print '\t' + str('host: ' + HOST)
-        CLIENT.server_info()
-        return CLIENT
+        conn = MongoClient('ds121896.mlab.com', 21896)
+        db = conn['betsy-data']
+	print '\tattempting to establish connection to client... '
+        db.authenticate(uname, password)
+        print '\t...connection successful: ' + str(db)
+        return db
     except pymongo.errors.ServerSelectionTimeoutError as err:
         print '\t' + 'ERR: Connection timed out. ' + str(err)
         sys.exit(0)
 
-CLIENT = get_client(HOST)
-CLIENT.close()
+def create_collection(client, name):
+    new_collection = client[name]
+    post_id = new_collection.insert_one({"init":1}).inserted_id
+    print '\t...new collection [' + name + ']: ' + str(post_id)
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print 'To run this script, run python testscript.py <username> <password>'
+        sys.exit()
+    client = get_client(sys.argv[1], sys.argv[2])
+    create_collection(client, 'games')
