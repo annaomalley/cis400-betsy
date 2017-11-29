@@ -25,7 +25,6 @@ def scrape(urls):
         req = urllib2.Request(url, headers={'User-Agent':"Magic Browser"})
         con = urllib2.urlopen(req)
         page_data[url] = str(con.read())
-        #print str(page_data[url])
     return page_data
 
 def print_to_file(filename, data):
@@ -52,12 +51,12 @@ def parse_squawka():
     driver.get(URL)
     soup = BeautifulSoup(driver.page_source, 'lxml')
     printable = set(string.printable)
-    #print str([x.find_all('rect').prettify() for x in [soup.find_all('rect')]])
     res = [x for x in soup.find(id="upcoming-fixtures").find_all('tbody')]
     print_to_file('barcelona_games.txt', res)
+
+    #print str([x.find_all('rect').prettify() for x in [soup.find_all('rect')]])
     #pp = pprint.PrettyPrinter()
     #pp.pprint()
-
     #matches_urls = [str(y)[5:-2] for y in [x.get('fill') for x in soup.find_all('rect') if type(x) != None] if 'url' in str(y)]
     #print str(matches_urls)
     #print str([x[4:-2] in matches_urls])
