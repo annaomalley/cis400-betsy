@@ -1,0 +1,634 @@
+<tbody>
+
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/valencia-cf/stats" target="_blank" title="Valencia Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729110216_valencia_h.png"/><span class="home-team">Valencia</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">1 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">26th November 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/26-11-2017/valencia-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/><span class="home-team">Juventus</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">Champions League</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">22nd November 2017<span></span></a></td>
+<td class="match-centre"><a href="http://champions-league.squawka.com/champions-league/22-11-2017/juventus-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/leganes/stats" target="_blank" title="Leganés Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/no_icon.png"/><span class="home-team">Leganés</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 3</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">18th November 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/18-11-2017/legans-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/sevilla/stats" target="_blank" title="Sevilla Stats"><span class="away-team">Sevilla<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105907_sevilla_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">2 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">4th November 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/04-11-2017/barcelona-vs-sevilla/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/olympiakos/stats" target="_blank" title="Olympiakos Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917105059_olympicos-home.png"/><span class="home-team">Olympiakos</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">Champions League</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">31st October 2017<span></span></a></td>
+<td class="match-centre"><a href="http://champions-league.squawka.com/champions-league/31-10-2017/olympiakos-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/athletic-club/stats" target="_blank" title="Athletic Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103419_athletic-bilbao_h.png"/><span class="home-team">Athletic</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 2</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">28th October 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/28-10-2017/athletic-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/malaga/stats" target="_blank" title="Málaga Stats"><span class="away-team">Málaga<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104742_mlaga_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">2 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">21st October 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/21-10-2017/barcelona-vs-mlaga/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/olympiakos/stats" target="_blank" title="Olympiakos Stats"><span class="away-team">Olympiakos<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917105059_olympicos-home.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">3 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">Champions League</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">18th October 2017<span></span></a></td>
+<td class="match-centre"><a href="http://champions-league.squawka.com/champions-league/18-10-2017/barcelona-vs-olympiakos/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/atletico-de-madrid/stats" target="_blank" title="Atlético Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103325_atltico-madrid_h.png"/><span class="home-team">Atlético</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">1 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">14th October 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/14-10-2017/atltico-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/las-palmas/stats" target="_blank" title="Las Palmas Stats"><span class="away-team">Las Palmas<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104513_las-palmas_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">3 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">1st October 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/01-10-2017/barcelona-vs-las-palmas/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/sporting-lisbon/stats" target="_blank" title="Sporting Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160815043825_sporting_h.png"/><span class="home-team">Sporting</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">Champions League</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">27th September 2017<span></span></a></td>
+<td class="match-centre"><a href="http://champions-league.squawka.com/champions-league/27-09-2017/sporting-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="" target="_blank" title="Girona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/no_icon.png"/><span class="home-team">Girona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 3</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">23rd September 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/23-09-2017/girona-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/eibar/stats" target="_blank" title="Eibar Stats"><span class="away-team">Eibar<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105809_sd-eibar_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">6 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">19th September 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/19-09-2017/barcelona-vs-eibar/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/getafe/stats" target="_blank" title="Getafe Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/la-liga/getafe-home.png"/><span class="home-team">Getafe</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">1 - 2</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">16th September 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/16-09-2017/getafe-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><span class="away-team">Juventus<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">3 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">Champions League</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">12th September 2017<span></span></a></td>
+<td class="match-centre"><a href="http://champions-league.squawka.com/champions-league/12-09-2017/barcelona-vs-juventus/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/espanyol/stats" target="_blank" title="Espanyol Stats"><span class="away-team">Espanyol<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103816_espanyol_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">5 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">9th September 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/09-09-2017/barcelona-vs-espanyol/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/alaves/stats" target="_blank" title="Alavés Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/no_icon.png"/><span class="home-team">Alavés</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 2</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">26th August 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/26-08-2017/alavs-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/real-betis/stats" target="_blank" title="Betis Stats"><span class="away-team">Betis<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105131_real-betis_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">2 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">20th August 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/20-08-2017/barcelona-vs-betis/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/eibar/stats" target="_blank" title="Eibar Stats"><span class="away-team">Eibar<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105809_sd-eibar_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">4 - 2</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">21st May 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/21-05-2017/barcelona-vs-eibar/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/las-palmas/stats" target="_blank" title="Las Palmas Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104513_las-palmas_h.png"/><span class="home-team">Las Palmas</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">1 - 4</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">14th May 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/14-05-2017/las-palmas-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/villarreal/stats" target="_blank" title="Villarreal Stats"><span class="away-team">Villarreal<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729110304_villarreal_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">4 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">6th May 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/06-05-2017/barcelona-vs-villarreal/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/espanyol/stats" target="_blank" title="Espanyol Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103816_espanyol_h.png"/><span class="home-team">Espanyol</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 3</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">29th April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/29-04-2017/espanyol-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/osasuna/stats" target="_blank" title="Osasuna Stats"><span class="away-team">Osasuna<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104849_osasuna_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">7 - 1</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">26th April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/26-04-2017/barcelona-vs-osasuna/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/real-madrid/stats" target="_blank" title="R Madrid Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105400_real-madrid_h.png"/><span class="home-team">R Madrid</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">2 - 3</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">23rd April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/23-04-2017/r-madrid-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><span class="away-team">Juventus<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">0 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">Champions League</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">19th April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://champions-league.squawka.com/champions-league/19-04-2017/barcelona-vs-juventus/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/real-sociedad/stats" target="_blank" title="Sociedad Stats"><span class="away-team">Sociedad<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105640_real-sociedad_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">3 - 2</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">15th April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/15-04-2017/barcelona-vs-sociedad/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/><span class="home-team">Juventus</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">3 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">Champions League</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">11th April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://champions-league.squawka.com/champions-league/11-04-2017/juventus-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/malaga/stats" target="_blank" title="Málaga Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104742_mlaga_h.png"/><span class="home-team">Málaga</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">2 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">8th April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/08-04-2017/mlaga-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/sevilla/stats" target="_blank" title="Sevilla Stats"><span class="away-team">Sevilla<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105907_sevilla_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">3 - 0</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">5th April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/05-04-2017/barcelona-vs-sevilla/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+<tr class="match-today">
+<td class="match-teams">
+<table border="0" width="100%">
+<tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/granada-cf/stats" target="_blank" title="Granada Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104431_granada_h.png"/><span class="home-team">Granada</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td class="match-channel"><a href="javascript:void(0);">1 - 4</a></td>
+<td class="match-league"><a href="javascript:void(0);">La Liga</a></td>
+<td class="match-kick-off"><a href="javascript:void(0);">2nd April 2017<span></span></a></td>
+<td class="match-centre"><a href="http://la-liga.squawka.com/spanish-la-liga/02-04-2017/granada-vs-barcelona/matches" target="_blank">Detailed Match Stats</a></td>
+<td class="arrow"><img alt="right arrow" class="retina" src="http://www.squawka.com/wp-content/themes/squawka_web/img/right-arrow.png"/></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/valencia-cf/stats" target="_blank" title="Valencia Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729110216_valencia_h.png"/><span class="home-team">Valencia</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/><span class="home-team">Juventus</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/leganes/stats" target="_blank" title="Leganés Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/no_icon.png"/><span class="home-team">Leganés</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/sevilla/stats" target="_blank" title="Sevilla Stats"><span class="away-team">Sevilla<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105907_sevilla_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/olympiakos/stats" target="_blank" title="Olympiakos Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917105059_olympicos-home.png"/><span class="home-team">Olympiakos</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/athletic-club/stats" target="_blank" title="Athletic Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103419_athletic-bilbao_h.png"/><span class="home-team">Athletic</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/malaga/stats" target="_blank" title="Málaga Stats"><span class="away-team">Málaga<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104742_mlaga_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/olympiakos/stats" target="_blank" title="Olympiakos Stats"><span class="away-team">Olympiakos<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917105059_olympicos-home.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/atletico-de-madrid/stats" target="_blank" title="Atlético Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103325_atltico-madrid_h.png"/><span class="home-team">Atlético</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/las-palmas/stats" target="_blank" title="Las Palmas Stats"><span class="away-team">Las Palmas<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104513_las-palmas_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/sporting-lisbon/stats" target="_blank" title="Sporting Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160815043825_sporting_h.png"/><span class="home-team">Sporting</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="" target="_blank" title="Girona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/no_icon.png"/><span class="home-team">Girona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/eibar/stats" target="_blank" title="Eibar Stats"><span class="away-team">Eibar<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105809_sd-eibar_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/getafe/stats" target="_blank" title="Getafe Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/la-liga/getafe-home.png"/><span class="home-team">Getafe</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><span class="away-team">Juventus<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/espanyol/stats" target="_blank" title="Espanyol Stats"><span class="away-team">Espanyol<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103816_espanyol_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/alaves/stats" target="_blank" title="Alavés Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/no_icon.png"/><span class="home-team">Alavés</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/real-betis/stats" target="_blank" title="Betis Stats"><span class="away-team">Betis<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105131_real-betis_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/eibar/stats" target="_blank" title="Eibar Stats"><span class="away-team">Eibar<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105809_sd-eibar_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/las-palmas/stats" target="_blank" title="Las Palmas Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104513_las-palmas_h.png"/><span class="home-team">Las Palmas</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/villarreal/stats" target="_blank" title="Villarreal Stats"><span class="away-team">Villarreal<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729110304_villarreal_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/espanyol/stats" target="_blank" title="Espanyol Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729103816_espanyol_h.png"/><span class="home-team">Espanyol</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/osasuna/stats" target="_blank" title="Osasuna Stats"><span class="away-team">Osasuna<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104849_osasuna_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/real-madrid/stats" target="_blank" title="R Madrid Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105400_real-madrid_h.png"/><span class="home-team">R Madrid</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><span class="away-team">Juventus<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/real-sociedad/stats" target="_blank" title="Sociedad Stats"><span class="away-team">Sociedad<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105640_real-sociedad_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/juventus/stats" target="_blank" title="Juventus Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20130917103719_juve-home.png"/><span class="home-team">Juventus</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/malaga/stats" target="_blank" title="Málaga Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104742_mlaga_h.png"/><span class="home-team">Málaga</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/><span class="home-team">Barcelona</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/sevilla/stats" target="_blank" title="Sevilla Stats"><span class="away-team">Sevilla<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729105907_sevilla_h.png"/></span></a></td>
+</tr>
+</tbody><tbody><tr>
+<td class="fleft"><a href="http://www.squawka.com/teams/granada-cf/stats" target="_blank" title="Granada Stats"><img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104431_granada_h.png"/><span class="home-team">Granada</span></a></td>
+<td class="fleft"><a class="teams-vs" href="javascript:void(0);">vs</a></td>
+<td class="fleft"><a href="http://www.squawka.com/teams/barcelona/stats" target="_blank" title="Barcelona Stats"><span class="away-team">Barcelona<img src="http://www.squawka.com/wp-content/themes/squawka_web/uploaded_icons/clubs/crest/20160729104229_fc-barcelona_h.png"/></span></a></td>
+</tr>
+</tbody>

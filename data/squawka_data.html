@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta property="og:image" content="http://www.squawka.com/wp-content/themes/squawka_web/img/fb-like.png" />
+<title>
+            Barcelona | Football | Statistics | Form Guide | Squawka.com        </title>
+<meta name="description" content="View all match stats for Barcelona, including goals, tackles, passes, fouls and performance ratings" />
+<meta name="keywords" content="Barcelona,Barcelona, Barcelona stats, stats, Barcelona performance, Barcelona tackle success, Barcelona pass completion, Barcelona goals, Barcelona shot accuracy" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="googlebot-news" content="noindex, nofollow" /> 
+<meta name="viewport" content="width = 1024, user-scalable = yes">
+<meta name="apple-itunes-app" content="app-id=702770635">
+<script>
+            var targetUrlParts = window.location.href.split('/'),
+                urlLevel1 = targetUrlParts[3] || '',
+                urlLevel2 = targetUrlParts[4] || '';
+
+            var Squawka_Targeting = {
+                "streamAMP": {
+                    "targets": {
+                        "Squawka_Channel": urlLevel1,
+                        "Squawka_SubChannel": urlLevel2,
+                        "Squawka_PostID": ""
+                    }
+                }
+            }
+        </script>
+<script type="text/javascript" src="//static.amp.services/clients/Squawka/ROS.js"></script>
+<link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png" />
+<base href="http://www.squawka.com/wp-content/themes/squawka_web/" />
+<link rel="image_src" type="image/jpeg" href="img/fb-like.png" />
+<link rel="icon" href="http://www.squawka.com/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.squawka.com/favicon.ico" type="image/x-icon">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.squawka.com/wp-content/themes/squawka_web/style.css" />
+<link rel="pingback" href="http://www.squawka.com/xmlrpc.php" />
+
+<link rel='canonical' href='http://www.squawka.com/teams/barcelona/stats#performance-score#spanish-la-liga#season-2017/2018#862#all-matches#1-13' />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,700">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/reset.css?v=1">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/libs.min.css?v=1">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/base.css?v=14">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/base_custom.css?v=2">
+<link rel="stylesheet" type="text/css" media="all" href="http://s3-irl-laliga.squawka.com/sprite/crest_thumb.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/custom.css?12">
+
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/header-search.css?v=1">
+
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/home.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/crest_v1.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/crest_thumb.css">
+<link rel="stylesheet" type="text/css" media="all" href="scripts/v1/css/ui-lightness/jquery-ui-1.8.22.custom_v1.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/squawka.team-pages_v1.css?v=3">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/team-pages-dp_v1.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/message_default.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v1/profile-card.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/custom-feed.css?8"><link rel="stylesheet" type="text/css" media="all" href="css/v3/squawka.team-page-changes_v1.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/v3/log-in-card.css">
+<link rel="stylesheet" type="text/css" media="all" href="/home/dist/styles/main-nav.css">
+<script type="text/javascript" src="scripts/v3/plg/min.jquery-v1.7.1.js"></script>
+<script type="text/javascript">var jq = jQuery.noConflict();</script>
+<script type="text/javascript" src="scripts/v3/raphael-min.js"></script>
+<script type="text/javascript" src="scripts/v3/squawka.swipe.js"></script>
+<script type="text/javascript" src="scripts/v3/squawka.jquery-ui.js"></script>
+<script type="text/javascript" src="scripts/v3/ui-custom.js"></script>
+<script type="text/javascript" src="scripts/v3/squawka.team.stats_v5.js?v=2.1"></script>
+<script type="text/javascript" src="scripts/v3/plg/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="scripts/v3/squawka.team-page-changes_v1.js"></script>
+<script type="text/javascript" src="scripts/v3/plg/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="scripts/v3/squawka.log-in-card.js"></script>
+<script type="text/javascript" src="scripts/v3/timezone.js?5"></script>
+<script type="text/javascript" src="scripts/v3/message.js"></script>
+<script type="text/javascript" src="scripts/v3/timezone.js?v=5"></script>
+<script type="text/javascript" src="scripts/v3/graph_v4.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"></script>
+<script type="text/javascript" src="/home/dist/scripts/app/views/shirtNav.js"></script>
+<script type="text/javascript" src="/home/dist/scripts/app/views/mainNav.js"></script>
+
+<script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function () {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                    '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+
+<script type="text/javascript" src="/news/wp-content/themes/squawka-blog/js/squawka-gpt.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script type="text/javascript">
+            var varTemplateURL = "http://www.squawka.com/wp-content/themes/squawka_web/";
+            var wp_perma_link = 'http://www.squawka.com/team-split/team-split';
+            var search_call_url = 'http://www.squawka.com/wp-content/themes/squawka_web/';
+            var login_url = 'http://www.squawka.com/login';
+            var login_user = '0';
+            var user_following = [];
+            var socialicons = [1,0];
+            function checkSearchValue()
+            {
+                window.location.href = '/search-results?q=' + $('#search-box').val();
+                return false;
+            }
+        </script>
+<script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-29786370-1']);
+            _gaq.push(['_setDomainName', 'squawka.com']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();</script>
+<script>
+            $(document).ready(function () {
+                //check for gaq
+                if (typeof _gaq != 'undefined') {
+                    // Track shirt clicks
+                    $('.kit-content-league').on('click', 'ul li a', function (e) {
+                        e.preventDefault();
+                        var team = $(this).attr('title'),
+                                url = $(this).attr('href');
+                        if (typeof team != 'undefined') {
+                            _gaq.push([
+                                '_trackEvent',
+                                'Shirts Nav',
+                                'Click',
+                                team
+                            ]);
+                            _gaq.push(function () {
+                                window.location.href = url;
+                            });
+                        }
+                    });
+                    //Track League changes
+                    $('.kit-nav-dropdown-button select').change(function () {
+                        var league = $('.kit-nav-dropdown-button select :selected').text().trim();
+                        _gaq.push([
+                            '_trackEvent',
+                            'Shirts Nav',
+                            'Change',
+                            league
+                        ]);
+                    });
+                }
+            });</script>
+<script type="text/javascript">
+                setTimeout(function () {
+                    var a = document.createElement("script");
+                    var b = document.getElementsByTagName("script")[0];
+                    a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0012/9863.js?" + Math.floor(new Date().getTime() / 3600000);
+                    a.async = true;
+                    a.type = "text/javascript";
+                    b.parentNode.insertBefore(a, b)
+                }, 1);</script>
+
+<script type="text/javascript">
+            _atrk_opts = {atrk_acct: "CWO9i1acVE00w0", domain: "squawka.com", dynamic: true};
+            (function () {
+                var as = document.createElement('script');
+                as.type = 'text/javascript';
+                as.async = true;
+                as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(as, s);
+            })();</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=CWO9i1acVE00w0" style="display:none" height="1" width="1" alt="" /></noscript>
+
+
+<script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:286102,hjsv:5};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+</head>
+<body class="single single-post postid-16904 single-format-standard post-template post-template-team_split-php">
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PTDX97"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PTDX97');</script>
+
+
+<header class="sq-header">
+
+<ul id="topsearch-suggestions"></ul>
+
+<div id="sq-live-topbar">
+<div class="sq-live-container sq-container legacy-sq-container">
+<div id="sq-live-date">Tue Nov 28 2017</div><div id="sq-live-time">15:34</div>
+<a href="/team-directory" id="search-box-side">
+<span class="shirt-icon"></span>Find a team/player&nbsp;&nbsp;|
+</a>
+
+
+<ul class="sq-header-sm-list">
+<li><a target="_blank" href="https://en-gb.facebook.com/SquawkaFootball"><i class="fa fa-facebook"></i></a></li>
+<li><a target="_blank" href="https://twitter.com/Squawka"><i class="fa fa-twitter"></i></a></li>
+<li><a target="_blank" href="https://plus.google.com/100198740555938973433"><i class="fa fa-google-plus"></i></a></li>
+<li><a target="_blank" href="http://instagram.com/squawkafootball"><i class="fa fa-instagram"></i></a></li>
+<li><a target="_blank" href="http://pinterest.com/squawkafootball"><i class="fa fa-pinterest"></i></a></li>
+<li><a target="_blank" href="https://www.youtube.com/channel/UC_QgsfA8W1TdLADOz0txpTg"><i class="fa fa-youtube"></i></a></li>
+<li><a target="_blank" href="https://www.linkedin.com/company/squawka"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="sq-header-container">
+<div class="sq-header-main-logo sq-container legacy-sq-container">
+<div class="sq-header-totop-container">
+<div class="sq-header-totop"></div>
+</div>
+<a class="sq-header-logo" href="/">
+<img src="/live-scores/images/squawka-logo.svg">
+</a>
+</div>
+<div class="sq-header-time-date-login sq-container-fluid">
+<div class="sq-container legacy-sq-container">
+<div class="sq-header-login">
+<form action="/login">
+<button class="sq-button-green icon-right sq-header-login-button">
+<span>Log In</span>
+<i class="fa fa-shield"></i>
+</button>
+<button class="sq-button-red sq-header-register-button">
+Register
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="sq-header-primary-nav sq-container legacy-sq-container">
+<div class="sq-header-primary-nav-outer">
+<div class="sq-header-primary-nav-inner">
+<div class="sq-header-primary-nav-list slick-initialized">
+<div class="main-nav-item sq-home-nav"><a href="/"><span class="sq-home-nav-txt">HOME</span><span class="sq-home-nav-icon"></span></a></div>
+<div class="main-nav-item sq-news-nav"><a href="/news/">NEWS</a></div>
+<div class="main-nav-item"><a href="/live-scores">LIVE SCORES</a></div>
+<div class="main-nav-item sq-stats-nav"><a href="javascript:void(0)">STATS CENTRE</a></div>
+<div class="main-nav-item sq-ball-ctrl-nav"><a href="/news/category/ball-ctrl/gaming-news-ball-ctrl">BALL CTRL</a></div>
+<div class="main-nav-item"><a href="/match-fixtures">FIXTURES</a></div>
+<div class="main-nav-item"><a href="/match-results">RESULTS</a></div>
+<div class="main-nav-item"><a target="_blank" href="https://bet.squawka-gaming.com">SQUAWKA BET</a></div>
+<div class="main-nav-item sq-statspack-link"><a target="_blank" href="http://statspack.squawka.com/"><span class="sq-statspack-link-logo"></span>STATSPACK</a></div>
+</div>
+</div>
+</div>
+<div class="sq-container legacy-sq-container">
+<div class="sq-header-search">
+<form id="sq-search-form" method="get" action="/search-results" onsubmit="return checkSearchValue();">
+<input class="header-nav-search-box" type="text" id="search-box" name="q" autocomplete="off" placeholder="Discover">
+<button disabled="disabled" class="header-nav-search-submit" type="button" id="search-submit">
+<i class="fa fa-search"></i>
+</button>
+</form>
+</div>
+</div>
+<div class="sq-header-primary-stats-nav-container">
+<ul class="sq-primary-stats-nav-list">
+<li><a href="/football-stats">Football Stats</a></li>
+<li><a href="/comparison-matrix">Comparison Matrix</a></li>
+<li><a href="/football-player-rankings">Player Rankings</a></li>
+<li><a href="/football-team-rankings">Team Rankings</a></li>
+</ul>
+</div>
+<div class="sq-header-primary-news-nav-container">
+<ul class="sq-primary-news-nav-list">
+<li><a href="/news/">Latest</a></li>
+<li><a href="/news/category/matchday">Matchday</a></li>
+<li><a href="/news/category/squawka-analysis">Analysis</a></li>
+<li><a href="/news/category/features">Features</a></li>
+<li><a href="/news/category/opinion">Opinion</a></li>
+<li><a href="/news/category/cult-corner">Cult Corner</a></li>
+<li><a href="/news/contact-us">Contact</a></li>
+</ul>
+<ul class="sq-primary-ball-ctrl-nav-list">
+<li><a href="/news/category/ball-ctrl">Latest</a></li>
+<li><a href="/news/category/ball-ctrl/gaming-news-ball-ctrl">Game News</a></li>
+<li><a href="/news/category/features-ball-ctrl">Features</a></li>
+<li><a href="/news/category/tips-tricks">Tips and Tricks</a></li>
+<li><a href="/news/category/retro">Retro</a></li>
+</ul>
+</div>
+</div>
+
+<script type='text/javascript'>
+            var _sf_async_config = _sf_async_config || {};
+            /** CONFIGURATION START **/
+            _sf_async_config.uid = 62698; //add the account number here!
+            _sf_async_config.domain = 'squawka.com'; //add the domain here (can be real or faux)
+            _sf_async_config.useCanonical = true;
+            _sf_async_config.flickerControl = false;
+            var _sf_startpt = (new Date()).getTime();
+            /** CONFIGURATION END **/
+        </script>
+<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+
+</header>
+<div class="legacy-shirts-container">
+<script id="shirt-nav-template" type='text/ractive'>
+    {{#leagues}}
+        <option {{#if active}}selected{{/if}} value="{{{id}}}" data-feedid="{{{country}}}">{{{name}}}</option>
+    {{/leagues}}
+</script>
+<script id="shirts-template" type='text/ractive'>
+    {{#shirts}}
+        {{#if name}}
+            <li>
+                <a href="{{#if url}}{{url}}{{else}}javascript:void(0){{/if}}">
+                    <div class="team-shirt-icon team{{{id}}}-kit"></div>
+                    <div class="team-short-name">{{{name}}}</div>
+                    <!-- <div class="team-points-display">26</div> -->
+                </a>
+                <!-- <a class="live-game-indicator" title="LIVE" href=""></a> -->
+            </li>
+        {{/if}}
+    {{/shirts}}
+</script>
+<div class="sq-shirt-nav-module" data-shirt-nav-league-id="">
+<div class="sq-shirt-nav-module-top-bar">
+<div class="sq-shirt-nav-module-top-bar-left">
+<div class="sq-shirt-nav-league-select-container">
+<div class="sq-select-custom-container">
+<div class="sq-select-custom-placeholder">
+<div class="nav-league-icon"></div>
+<i class="fa fa-caret-down"></i>
+<span class="shirt-nav-league-placeholder">Select League</span>
+</div>
+<select id="shirt-nav-options" class="shirt-nav-league-select sq-select-custom">
+</select>
+</div>
+</div>
+</div>
+<div class="sq-shirt-nav-module-top-bar-right">
+<div class="sq-shirt-nav-team-directory">
+<a href="/team-directory">
+<span>Use our directory to find a team or player</span>TEAM DIRECTORY
+</a>
+</div>
+</div>
+</div>
+<div class="sq-shirt-nav-module-shirts-block">
+<div class="sq-shirt-nav-module-shirts-block-loading">
+</div>
+<ul id="shirts-list">
+</ul>
+</div>
+</div> </div>
+<div id="adunit-top-container">
+<div id="adunit-top" class="three-column">
+<div id="Unit1" class="dfp-banner">
+<script>
+                    googletag.cmd.push(function() { googletag.display('Unit1'); });
+                </script>
+</div>
+</div>
+</div>
+
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    window.twttr = (function (d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = {_e: [], ready: function (f) {
+                t._e.push(f)
+            }});
+    }(document, "script", "twitter-wjs"));</script>
+
+<div id="squawka-wrapper">
+<div id="main-container">
+<div class="misc-pages" id="featured-area">
+<style>
+
+#featured-area {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border: 1px solid #DDD;
+	border-top: none;
+}
+
+#featured-area h2 {
+	display: none;
+}
+
+#featured-area h1 {
+	text-align: center;
+	font-size: 34px;
+	font-weight: lighter;
+	color: #333;
+	padding: 30px 0;
+}
+
+#error404-image {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+</style>
+<h1>The Page You Requested Couldn't Be Found...</h1>
+<a id="error404-image" href="/"><img class="aligncenter size-full wp-image-11440" title="Looks like the page you requested couldn't be found!" src="/wp-content/uploads/2012/06/404-page.gif" alt="" width="800" height="400"></a>
+</div>
+</div>
+<script type="text/javascript">
+		// focus on search field after it has loaded
+		document.getElementById('s') && document.getElementById('s').focus();
+	</script>
+</div>
+<div id="adunit-bottom" class="three-column">
+<div id="Unit4" class="dfp-banner">
+<script>
+                googletag.cmd.push(function() { googletag.display('Unit4'); });
+            </script>
+</div>
+</div>
+<div id="user-profile-card-overlay" class="overlay-75"></div>
+<footer class="sq-footer">
+<div class="sq-footer-outer-container sq-container legacy-sq-container">
+<div class="sq-footer-follow-section-outer sq-container-fluid">
+<div class="sq-footer-follow-section-inner">
+<ul class="sq-footer-sm-list">
+<li><a target="_blank" href="https://en-gb.facebook.com/SquawkaFootball"><i class="fa fa-facebook"></i></a></li>
+<li><a target="_blank" href="https://twitter.com/Squawka"><i class="fa fa-twitter"></i></a></li>
+<li><a target="_blank" href="https://plus.google.com/+SquawkaFootball"><i class="fa fa-google-plus"></i></a></li>
+<li><a target="_blank" href="http://instagram.com/squawkafootball"><i class="fa fa-instagram"></i></a></li>
+<li><a target="_blank" href="http://pinterest.com/squawkafootball"><i class="fa fa-pinterest"></i></a></li>
+<li><a target="_blank" href="https://www.youtube.com/channel/UC_QgsfA8W1TdLADOz0txpTg"><i class="fa fa-youtube"></i></a></li>
+<li><a target="_blank" href="https://www.linkedin.com/company/squawka"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="sq-footer-site-map-nav-outer sq-container legacy-sq-container">
+<div class="sq-footer-site-map-nav-inner">
+<div class="sq-footer-site-map-nav-col">
+<div class="sq-footer-site-map-nav-col-block">
+<h6 class="sq-footer-site-map-heading">Squawka News</h6>
+<ul class="sq-footer-site-map-list">
+<li><a href="/news">News</a></li>
+<li><a href="/news/category/matchday">Matchday</a></li>
+<li><a href="/news/category/squawka-analysis">Analysis</a></li>
+<li><a href="/news/category/features">Features</a></li>
+<li><a href="/news/category/opinion">Opinion</a></li>
+<li><a href="/news/category/cult-corner">Cult Corner</a></li>
+</ul>
+</div>
+<div class="sq-footer-site-map-nav-col-block">
+<h6 class="sq-footer-site-map-heading">Squawka Social</h6>
+<ul class="sq-footer-site-map-list">
+<li><a target="_blank" href="https://en-gb.facebook.com/SquawkaFootball">Facebook</a></li>
+<li><a target="_blank" href="https://twitter.com/Squawka">Twitter</a></li>
+<li><a target="_blank" href="https://plus.google.com/+SquawkaFootball">Google+</a></li>
+<li><a target="_blank" href="http://instagram.com/squawkafootball">Instagram</a></li>
+<li><a target="_blank" href="http://pinterest.com/squawkafootball">Pinterest</a></li>
+<li><a target="_blank" href="https://www.youtube.com/channel/UC_QgsfA8W1TdLADOz0txpTg">YouTube</a></li>
+<li><a target="_blank" href="https://www.linkedin.com/company/squawka">LinkedIn</a></li>
+</ul>
+</div>
+</div>
+<div class="sq-footer-site-map-nav-col">
+<div class="sq-footer-site-map-nav-col-block">
+<h6 class="sq-footer-site-map-heading">Squawka.com</h6>
+<ul class="sq-footer-site-map-list">
+<li><a href="/">Home</a></li>
+<li><a href="/live-scores">Live Scores</a></li>
+<li><a href="/football-stats">Football Stats</a></li>
+<li><a href="/comparison-matrix">Comparison Matrix</a></li>
+<li><a href="/football-player-rankings">Player Rankings</a></li>
+<li><a href="/football-team-rankings">Team Rankings</a></li>
+<li><a href="/match-fixtures">Fixtures</a></li>
+<li><a href="/match-results">Results</a></li>
+<li><a href="/news/category/ball-ctrl">Ball CTRL</a></li>
+<li><a target="_blank" href="http://www.matchboss.com/">Fantasy Football</a></li>
+<li><a target="_blank" href="http://statspack.squawka.com/">Statspack</a></li>
+</ul>
+</div>
+</div>
+<div class="sq-footer-site-map-nav-col">
+<div class="sq-footer-site-map-nav-col-block">
+<h6 class="sq-footer-site-map-heading">About Squawka</h6>
+<ul class="sq-footer-site-map-list">
+<li><a href="/frequently-asked-questions">Help &amp; FAQ's</a></li>
+<li><a href="/about-us">About Us</a></li>
+<li><a href="/squawka-academy">Squawka Academy</a></li>
+<li><a href="/football-stats-definitions">Stats Definitions</a></li>
+<li><a href="/what-is-the-squawka-player-performance-rating">Squawka Player Performance Score</a></li>
+<li><a href="/contact-us">Contact Squawka</a></li>
+<li><a href="/advertise">Advertise With Us</a></li>
+</ul>
+</div>
+</div>
+<div class="sq-footer-site-map-nav-col">
+<div class="sq-footer-site-map-nav-col-block">
+<h6 class="sq-footer-site-map-heading">Corporate</h6>
+<ul class="sq-footer-site-map-list">
+<li><a target="_blank" href="http://corp.squawka.com/timeline">Timeline</a></li>
+<li><a target="_blank" href="http://corp.squawka.com/team">Team</a></li>
+<li><a target="_blank" href="http://corp.squawka.com/careers">Careers</a></li>
+</ul>
+</div>
+<div class="sq-footer-site-map-nav-col-block">
+<h6 class="sq-footer-site-map-heading">Policies</h6>
+<ul class="sq-footer-site-map-list">
+<li><a href="/terms-and-conditions">Terms and Conditions</a></li>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/opt-out-policy">Opt Out Policy</a></li>
+<li><a href="/privacy-policy">Cookies Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sq-footer-site-map-nav-col-app">
+<h6 class="sq-footer-site-map-heading">Squawka app</h6>
+<ul class="sq-footer-site-map-apps">
+<li>
+<a target="_blank" href="https://itunes.apple.com/gb/app/the-squawka-football-app/id702770635?mt=8">
+<img src="/live-scores/images/ios-app-badge.svg">
+</a>
+</li>
+<li>
+<a target="_blank" href="https://play.google.com/store/apps/details?id=com.squawka.activities&hl=en_GB">
+<img src="/live-scores/images/android-app-badge.png">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sq-footer-bottom-strip">
+<div class="sq-footer-bottom-strip-container sq-container legacy-sq-container">
+<div class="sq-footer-bottom-strip-logo">
+<a class="sq-footer-logo" href="/">
+<img src="/live-scores/images/squawka-logo.svg">
+</a>
+</div>
+<div class="sq-footer-bottom-strip-opta">
+<div class="sq-footer-opta">
+<img src="/live-scores/images/opta-logo.svg">
+</div>
+</div>
+<div class="sq-footer-bottom-strip-resolution">
+<i class="fa fa-desktop"></i>
+<i class="fa fa-laptop"></i>
+<i class="fa fa-tablet"></i>
+<i class="fa fa-mobile"></i>
+</div>
+<div class="sq-footer-bottom-strip-address">
+<span class="line-break">Copyright &COPY; All rights reserved Squawka Ltd</span> <span class="line-break">3rd Floor, 38-40 Commercial Road, London, E1 1LN</span>
+</div>
+</div>
+</div>
+<div class="sq-footer-bottom-tags">
+<script type="text/javascript">
+                (function (tos) {
+                    window.setInterval(function () {
+                        // Every 10,000 milliseconds, calculate the time
+                        tos = (function (t) {
+                            return t[0] == 50 ? (parseInt(t[1]) + 1) + ':00' : (t[1] || '0') + ':' + (parseInt(t[0]) + 10);
+                        })(tos.split(':').reverse());
+                        // Collect and send the time to Google Analytics
+                        window.pageTracker ? pageTracker._trackEvent('Time', 'Log', tos) : _gaq.push(['_trackEvent', 'Time', 'Log', tos]);
+                    }, 60000);
+                })('00');</script>
+
+<script type="text/javascript">
+                var pwidget_config = {
+                    trackAddressBar: false,
+                    track: false,
+                    defaults: {
+                        afterShare: false
+                    },
+                    publisherKey: "40a2elirfpo1jbhtis50"
+                };
+                (function ()
+                {
+                       var s = document.createElement('script');
+                       s.type = 'text/javascript';
+                       s.async = true;
+                       s.src = 'http://i.po.st/static/v3/post-widget.js';
+                       var x = document.getElementsByTagName('script')[0];
+                       x.parentNode.insertBefore(s, x);
+                })();</script>
+<script type="text/javascript">
+                <!--
+            document.write('<img src="' + ("https:" == document.location.protocol ? "https:" : "http:") + "//rs.gwallet.com/r1/pixel/x16124" + "r" + Math.round(1E7 * Math.random()) + '" width="1" height="1" border="0" alt=""/>');
+                //-->
+            </script>
+<noscript>
+            <img src="https://rs.gwallet.com/r1/pixel/x16124"/>
+            </noscript>
+
+<script>
+                window.fbAsyncInit = function () {
+                    FB.init({
+                        appId: '301350836622325',
+                        cookie: true,
+                        xfbml: true,
+                        oauth: true,
+                    });
+                };
+                (function () {
+                    var e = document.createElement('script'); //e.async = true;
+                    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+                    document.getElementById('fb-root').appendChild(e);
+                }());</script>
+<script type="text/javascript">
+                function fblogin() {
+                    var url = 'https://graph.facebook.com/oauth/authorize?type=user_agent&client_id=301350836622325&redirect_uri=http://www.squawka.com/wp-content/themes/squawka_web/register_fp_update_script.php&display=popup&scope=email,user_birthday,user_location,read_friendlists,user_online_presence,publish_stream,offline_access,user_status,read_stream';
+                    t = (screen.height / 6);
+                    l = (screen.width / 2) - (470 / 2);
+                    window.open(url, 'FacebookConnect', 'status=0,toolbar=0,resizable=1,scrollbars=1,menubar=0,width=488,height=425,top=' + t + ',left=' + l);
+                }
+
+                function twitterLogin() {
+                    window.location.href = 'http://www.squawka.com/wp-content/themes/squawka_web/twitter/redirect.php';
+                }
+            </script>
+
+<script type="text/javascript" src="scripts/v3/header-search.js?3"></script>
+
+
+<script type='text/javascript'>
+            var _sf_async_config = _sf_async_config || {};
+            /** CONFIGURATION START **/
+            _sf_async_config.sections = 'main-site';
+            _sf_async_config.authors = 'main-site';
+            /** CONFIGURATION END **/
+            (function() {
+                function loadChartbeat() {
+                    window._sf_endpt = (new Date()).getTime();
+                    var e = document.createElement('script');
+                    e.setAttribute('language', 'javascript');
+                    e.setAttribute('type', 'text/javascript');
+                    e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+                    document.body.appendChild(e);
+                }
+                var oldonload = window.onload;
+                window.onload = (typeof window.onload != 'function') ?
+                    loadChartbeat : function() {
+                        oldonload();
+                        loadChartbeat();
+                    };
+            })();
+        </script>
+</div>
+
+<div id="Unit6">
+<script>
+            googletag.cmd.push(function() { googletag.display('Unit6'); });
+        </script>
+</div>
+<div id="Unit7">
+<script>
+            googletag.cmd.push(function() { googletag.display('Unit7'); });
+        </script>
+</div>
+<div id="Unit8">
+<script>
+            googletag.cmd.push(function() { googletag.display('Unit8'); });
+        </script>
+</div>
+</footer>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7ce5a65388","applicationID":"8031004,5117658","transactionName":"YFxQMRcHWEdYUhcPDFkWcwYRD1laFkUGBw5oSkIJDBI=","queueTime":0,"applicationTime":261,"atts":"TBtTR18dS0k=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
