@@ -1,0 +1,22 @@
+ALL PAGES
+- Add disclaimer at bottom of page
+
+HOME PAGE
+- Update with a BETSY logo
+- Update with Style
+- Add search feature
+  - should auto-fill with team names
+  - when a team name is selected and search hit, JS should respond by redirecting
+    to appropriate team page, dynamically generated
+- Add box for recent predictions
+
+TEAM PAGE
+- use JS to pull team name and logo and display on page
+
+404 PAGE
+- Style as desired
+
+NOTES:
+- All react stuff won't be handled until this is done.
+- CSS is just for appearances of certain elements; to make a page's design,
+  have to build HTML structure
