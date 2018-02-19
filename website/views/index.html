@@ -8,7 +8,16 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+
+<link rel="stylesheet" href="style/awesomplete.css" />
+<script src="style/awesomplete.js" async></script>
+<script>
+function search() {
+  var val = document.getElementById("searchbox").value
+  alert("Selected: " + val)
+}
+</script>
+
 </head>
 <body>
 <div>
@@ -25,7 +34,19 @@
 <div class="jumbotron"> <p>
 This is place to put content. You can put slider, short description about your website and place some links for navigation.
 </p></div>
+
+<input id="searchbox" class="dropdown-input" list="teams" />
+<datalist id="teams">
+	<option>Alavés</option>
+	<option>Athletic Bilbao</option>
+	<option>Atlético Madrid</option>
+	<option>Barcelona</option>
+	<option>Celta Vigo</option>
+	<option>Deportivo La Coruña</option>
+	<option>Eibar</option>
+</datalist>
+<button type="button" onclick="search()">Go!</button>
+
 </div>
 </body>
 </html>
-
