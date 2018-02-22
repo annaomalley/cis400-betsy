@@ -4,6 +4,8 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
 
 <title>About</title>
 
@@ -31,23 +33,19 @@
 <div class="container">
 
 
-<div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+<div id="containerone" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 
 
-<hr>
-<footer>
-  <p> Disclaimer: Betsy accepts no responsibility or liability for any losses which may occur using information made available on this site. Use the information provided on Betsy at your own risk.
+<div id="containertwo" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 
- 
-  </p>
-</footer>
+
 
   </div>
 
   </div>
 
   <script>
-Highcharts.chart('container', {
+Highcharts.chart('containerone', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
@@ -88,6 +86,167 @@ Highcharts.chart('container', {
         ]
     }]
 });
+
+// Uncomment to style it like Apple Watch
+/*
+if (!Highcharts.theme) {
+    Highcharts.setOptions({
+        chart: {
+            backgroundColor: 'black'
+        },
+        colors: ['#F62366', '#9DFF02', '#0CCDD6'],
+        title: {
+            style: {
+                color: 'silver'
+            }
+        },
+        tooltip: {
+            style: {
+                color: 'silver'
+            }
+        }
+    });
+}
+// */
+
+
+Highcharts.chart('containertwo', {
+
+    chart: {
+        type: 'solidgauge',
+        height: '110%',
+        events: {
+        }
+    },
+
+    title: {
+        text: 'Bookie Accuracy',
+        style: {
+            fontSize: '24px'
+        }
+    },
+
+    tooltip: {
+        borderWidth: 0,
+        backgroundColor: 'none',
+        shadow: false,
+        style: {
+            fontSize: '16px'
+        },
+        pointFormat: '{series.name}<br><span style="font-size:2em; color: {point.color}; font-weight: bold">{point.y}%</span>',
+        positioner: function (labelWidth) {
+            return {
+                x: (this.chart.chartWidth - labelWidth) / 2,
+                y: (this.chart.plotHeight / 2) + 15
+            };
+        }
+    },
+
+    pane: {
+        startAngle: 0,
+        endAngle: 360,
+        background: [{ // Track for Move
+            outerRadius: '100%',
+            innerRadius: '91%',
+            backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[0])
+                .setOpacity(0.3)
+                .get(),
+            borderWidth: 0
+        },
+        { // Track for Move
+            outerRadius: '90%',
+            innerRadius: '81%',
+            backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[1])
+                .setOpacity(0.3)
+                .get(),
+            borderWidth: 0
+        },{ // Track for Move
+            outerRadius: '80%',
+            innerRadius: '71%',
+            backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[2])
+                .setOpacity(0.3)
+                .get(),
+            borderWidth: 0
+        }, { // Track for Exercise
+            outerRadius: '70%',
+            innerRadius: '61%',
+            backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[3])
+                .setOpacity(0.3)
+                .get(),
+            borderWidth: 0
+        }, { // Track for Stand
+            outerRadius: '60%',
+            innerRadius: '51%',
+            backgroundColor: Highcharts.Color(Highcharts.getOptions().colors[4])
+                .setOpacity(0.3)
+                .get(),
+            borderWidth: 0
+        }]
+    },
+
+    yAxis: {
+        min: 0,
+        max: 100,
+        lineWidth: 0,
+        tickPositions: []
+    },
+
+    plotOptions: {
+        solidgauge: {
+            dataLabels: {
+                enabled: false
+            },
+            linecap: 'round',
+            stickyTracking: false,
+            rounded: true
+        }
+    },
+
+    series: [{
+        name: 'Ladbrokes',
+        data: [{
+            color: Highcharts.getOptions().colors[0],
+            radius: '100%',
+            innerRadius: '91%',
+            y: 56.0
+        }]
+    },{
+        name: 'William Hill',
+        data: [{
+            color: Highcharts.getOptions().colors[1],
+            radius: '90%',
+            innerRadius: '81%',
+            y: 55.9
+        }]
+    },{
+        name: 'Bet365',
+        data: [{
+            color: Highcharts.getOptions().colors[2],
+            radius: '80%',
+            innerRadius: '71%',
+            y: 55.8
+        }]
+    }, {
+        name: 'Bet&Win',
+        data: [{
+            color: Highcharts.getOptions().colors[3],
+            radius: '70%',
+            innerRadius: '61%',
+            y: 55.8
+        }]
+    }, {
+        name: 'Interwetten',
+        data: [{
+            color: Highcharts.getOptions().colors[4],
+            radius: '60%',
+            innerRadius: '51%',
+            y: 55.4
+        }]
+    }]
+});
+
+
+
 </script>
 
 
