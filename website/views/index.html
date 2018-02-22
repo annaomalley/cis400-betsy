@@ -29,24 +29,60 @@ function search() {
       <li><a href="/about">About us</a></li>
       <li><a href="/contact">Contact us</a></li>
     </ul>
+
+
+
+
 </nav>
 </div>
 <br/>
-<div class="jumbotron"> <p>
-This is place to put content. You can put slider, short description about your website and place some links for navigation.
-</p></div>
+<div class="jumbotron"> 
 
-<input id="searchbox" class="dropdown-input" list="teams" />
+<div class="container">
+
+<h1>Betsy</h1>
+<p>
+
+Betsy is a machine learning solution to predict and visualize La Liga match outcomes.
+
+
+</p>
+<a class="btn btn-primary btn-lg" href="about" role="button">Learn more »</a>
+
+
+</div></div>
+
+<div class="container">
+
+    <form class="form-inline my-2 my-lg-0">
+
+    <input id="searchbox" class="dropdown-input form-control mr-sm-2" list="teams" placeholder="Search"/>
 <datalist id="teams">
-	<option>Alavés</option>
-	<option>Athletic Bilbao</option>
-	<option>Atlético Madrid</option>
-	<option>Barcelona</option>
-	<option>Celta Vigo</option>
-	<option>Deportivo La Coruña</option>
-	<option>Eibar</option>
+  <option>Alavés</option>
+  <option>Athletic Bilbao</option>
+  <option>Atlético Madrid</option>
+  <option>Barcelona</option>
+  <option>Celta Vigo</option>
+  <option>Deportivo La Coruña</option>
+  <option>Eibar</option>
 </datalist>
-<button type="button" onclick="search()">Go!</button>
+<button type="button" onclick="search()" class="btn">Go!</button>
+        </form>
+
+
+
+
+<div class="row">
+
+</div>
+
+<hr>
+<footer>
+  <p> Disclaimer
+  </p>
+</footer>
+</div>
+
 
 </div>
 </body>
