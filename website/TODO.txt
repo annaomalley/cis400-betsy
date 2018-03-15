@@ -1,17 +1,5 @@
-
 ALL PAGES
-- Add disclaimer at bottom of page [Anna]
-- Figure out D3 and displaying graphs [Anna]
-- Add basic info to home / about pages [Anna]
-- Update Home Page with a BETSY logo [Brian]
 - Style 404 Page [Brian]
-- Add box for recent predictions [Dylan]
 - Update lists of teams/logos on home and team page [Dylan]
 - Find database, uplaod team names, dynammically pull  them to search bar on home page [Griffin]
 - Add style, images using CSS to website [Shannon]
-  - Link CSS to page (find stylesheet online?)
-
-NOTES:
-- All react stuff won't be handled until this is done.
-- CSS is just for appearances of certain elements; to make a page's design,
-  have to build HTML structure
