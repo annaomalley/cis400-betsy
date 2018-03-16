@@ -3,6 +3,7 @@ import json
 import string
 import pprint
 import urllib2                 # https://docs.python.org/2/library/urllib2.
+import unidecode
 
 from bs4 import BeautifulSoup  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 from mongotools import get_client, create_collection, insert_collection
@@ -29,9 +30,9 @@ def scrape(urls):
 
 def print_to_file(filename, data):
     f = open('data/'+filename,'w')
-    if type(data) is list:
+    if type(data) is not dict:
         for d in data:
-            f.write(str(d))
+            f.write(str(d) + '\n')
     else:
         for d in data.keys():
             f.write(str(data[d]))
@@ -50,9 +51,33 @@ def parse_squawka():
     driver = webdriver.PhantomJS()
     driver.get(URL)
     soup = BeautifulSoup(driver.page_source, 'lxml')
-    printable = set(string.printable)
-    res = [x for x in soup.find(id="upcoming-fixtures").find_all('tbody')]
-    print_to_file('barcelona_games.txt', res)
+    my_games = soup.find_all("tr", { "class" : "match-today" })
+    all_games = []
+    for game in my_games:
+        game_data = {}; score = unidecode.unidecode(game.find("td",{"class":"match-channel"}).find(text=True, recursive=True)).split(' - ')
+        game_data['home_team'] = unidecode.unidecode(game.find("span", {"class":"home-team"}).string)
+        game_data['away_team'] = unidecode.unidecode([y for y in [x for x in game.find_all("span")] if y != None][1].find(text=True, recursive=False))
+        game_data['home_score'] = int(score[0])
+        game_data['away_score'] = int(score[1])
+        game_data['league'] =  unidecode.unidecode(game.find("td", {"class":"match-league"}).find(text=True, recursive=True))
+        game_data['date'] = unidecode.unidecode(game.find("td", {"class":"match-kick-off"}).find(text=True, recursive=True))
+        game_data['url'] = game.find("td", {"class":"match-centre"}).a['href']
+        if game_data['league'] == 'La Liga':
+            all_games.append(game_data)
+
+        #print "game: " + str((home_team, away_team, score_home, score_away, league, date,  url))
+        #print
+        #away_team = unidecode.unidecode(game.find("span", {"class":"away-team"}).string)
+        #
+        #away_team = unidecode.unidecode(game.find("span", {"class":"away-team"}).string)
+        #home_team = game.find("span", {"class":"home-team"}).get_text()
+        #away_team = game.find("span", {"class":"home-team"}).contents
+        #.contents
+        #print str((home_team, away_team, score))
+    print_to_file('barcelona_games.txt', all_games)
+    #printable = set(string.printable)
+    #res = [x for x in soup.find(id="upcoming-fixtures").find_all('tbody')]
+
 
     #print str([x.find_all('rect').prettify() for x in [soup.find_all('rect')]])
     #pp = pprint.PrettyPrinter()

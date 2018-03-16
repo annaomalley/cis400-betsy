@@ -8,12 +8,33 @@ router.use(function (req,res,next) {
   next();
 });
 
+function dbQuery(queryText) {
+  var mysql = require('mysql');
+  var con = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "abc123",
+    multipleStatements: true
+  });
+  con.connect(function(err) {
+    if (err) throw err;
+    console.log("Connected to SQL DB.");
+  });
+  con.query(queryText, function (err, result, fields) {
+    if (err) throw err;
+    console.log(result);
+  });
+};
+
 router.get("/",function(req,res){
   res.sendFile(path + "index.html");
 });
 
 router.get("/home",function(req,res){
+  console.log("Here 0");
+  dbQuery("SELECT * FROM teams");
   res.sendFile(path + "index.html");
+
 });
 
 router.get("/about",function(req,res){
@@ -40,4 +61,6 @@ app.use("*",function(req,res){
 
 app.listen(3000,function(){
   console.log("Live at Port 3000");
+  var q = "USE BETSY; SELECT * FROM TEST_TEAMS;"
+  dbQuery(q);
 });

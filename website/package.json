@@ -5,6 +5,8 @@
     "start": "node Server.js"
   },
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "mongodb": "^3.0.4",
+    "mysql": "^2.15.0"
   }
 }
