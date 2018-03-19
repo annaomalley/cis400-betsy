@@ -3,9 +3,9 @@ var app = express();
 var router = express.Router();
 var path = __dirname + '/views/';
 
-/*****************/
-/*** DATABASE ****/
-/*****************/
+/*******************/
+/***** DATABASE ****/
+/*******************/
 
 // Create a persistent connection to the database
 var mysql = require('mysql');
@@ -20,23 +20,9 @@ con.connect(function(err) {
   console.log("Connected to SQL DB.");
 });
 
-/*****************/
-/*** FUNCTIONS ***/
-/*****************/
-
-// render the Team page for a given request
-function renderTeamPage(req,res) {
-  var teamName = req.query.name;
-  var q = 'SELECT * FROM teams WHERE teamName = \'' + teamName + '\';'
-  con.query(q, function (err, result, fields) {
-    if (err) {
-      res.sendFile(path + "team.html");
-    }
-    console.log(result);
-    let teamsList = [];
-    res.render('team.html', { teams: teamsList });
-  });
-}
+/*******************/
+/**** FUNCTIONS ****/
+/*******************/
 
 // render the home page, passing the list of teams to the page
 function renderHomePage(res) {
@@ -52,9 +38,27 @@ function renderHomePage(res) {
   });
 }
 
-/*****************/
-/***** PAGES *****/
-/*****************/
+// render the Team page for a given request
+function renderTeamPage(req,res) {
+  var teamName = req.query.name;
+  var q = 'SELECT * FROM teams WHERE teamName = \'' + teamName + '\';'
+  con.query(q, function (err, result, fields) {
+    if (err) {
+      res.sendFile(path + "team.html");
+    }
+    console.log(result[0]);
+    console.log(result[0].teamName);
+    let teamsList = [];
+    res.render('team.html', {
+      teamName: result[0].teamName,
+      teamLogo: result[0].teamLogo
+    });
+  });
+}
+
+/*******************/
+/* EXPRESS ROUTING */
+/*******************/
 
 router.use(function (req,res,next) {
   console.log("/" + req.method);
@@ -103,32 +107,3 @@ app.listen(3000,function(){
     console.log(result);
   });
 });
-
-
-
-/*
-function dbQuery(queryText) {
-  var mysql = require('mysql');
-  var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "abc123",
-    multipleStatements: true
-  });
-  con.connect(function(err) {
-    if (err) throw err;
-    console.log("Connected to SQL DB.");
-  });
-  var q = 'USE BETSY; ' + queryText;
-  con.query(q, function (err, result, fields) {
-    if (err) throw err;
-    console.log(result);
-  });
-};
-*/
-
-// test database connection
-/*con.query('USE BETSY; SHOW TABLES;', function (err,result,fields) {
-  if (err) throw err;
-  console.log(result);
-});*/
