@@ -1,90 +1,58 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Betsy</title>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="style/awesomplete.css" />
-<link rel="stylesheet" href="style/betsystyle.css" />
-<script src="style/awesomplete.js" async></script>
-<script>
-function search() {
-  var val = document.getElementById("searchbox").value
-  alert("Selected: " + val)
-  window.location = '/team?name=' + val;
-}
-</script>
-
+  <meta charset="UTF-8">
+  <title>Betsy</title>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style/awesomplete.css" />
+  <link rel="stylesheet" href="style/betsystyle.css" />
+  <script src="style/awesomplete.js" async></script>
+  <script>
+    function search() {
+      var tn = document.getElementById("searchbox").value;
+      if (tn) window.location = '/team?name=' + tn;
+    }
+  </script>
 </head>
 <body>
-<div class="navbar navbar-inverse">
-  <img border="5" src="http://i.imgur.com/lNNxv3J.png">
-
-<nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
-       <ul class="nav navbar-nav">
-      <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
-      <li><a href="/about">About us</a></li>
-      <li><a href="/contact">Contact us</a></li>
-    </ul>
-</nav>
-</div>
-<br/>
-
-<div class="jumbotron">
-
-<div class="container">
-
-<h1>Betsy</h1>
-<p>
-
-Betsy is a machine learning solution to predict and visualize La Liga match outcomes.
-
-
-</p>
-<a class="btn btn-primary btn-lg" href="about" role="button">Learn more »</a>
-
-
-</div></div>
-
-<div class="container">
-
-    <form class="form-inline my-2 my-lg-0">
-
-    <input id="searchbox" class="dropdown-input form-control mr-sm-2" list="teams" placeholder="Search"/>
-<datalist id="teams">
-  <option>Alavés</option>
-  <option>Athletic Bilbao</option>
-  <option>Atlético Madrid</option>
-  <option>Barcelona</option>
-  <option>Celta Vigo</option>
-  <option>Deportivo La Coruña</option>
-  <option>Eibar</option>
-</datalist>
-<button type="button" onclick="search()" class="btn">Go!</button>
-        </form>
-
-
-
-
-<div class="row">
-
-</div>
-
-<hr>
-<footer>
-  <p> Disclaimer: Betsy accepts no responsibility or liability for any losses which may occur using information made available on this site. Use the information provided on Betsy at your own risk.
-
-
-  </p>
-</footer>
-</div>
-
-
-</div>
-</body>
+  <div class="navbar navbar-inverse">
+    <img border="5" src="http://i.imgur.com/lNNxv3J.png">
+    <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <br/>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Betsy</h1>
+      <p>Betsy is a machine learning solution to predict and visualize La Liga match outcomes.</p>
+      <a class="btn btn-primary btn-lg" href="about" role="button">Learn more »</a>
+    </div>
+  </div>
+    <div class="container">
+      <form class="form-inline my-2 my-lg-0">
+        <input id="searchbox" class="dropdown-input form-control mr-sm-2" list="teams" placeholder="Search"/>
+        <datalist id="teams">
+          <% for(let i = 0; i < teams.length; i++) { %>
+            <option><%= teams[i] %></option>
+          <% } %>
+        </datalist>
+        <button type="button" onclick="search()" class="btn">Go!</button>
+      </form>
+      <div class="row" />
+        <hr>
+        <footer>
+          <p>Disclaimer: Betsy accepts no responsibility or liability for any losses which may occur using information made available on this site. Use the information provided on Betsy at your own risk.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,48 @@
+HOW TO USE THE DATABASE WITH THE WEBSITE
+
+*****************
+***PLEASE READ***
+*****************
+
+We are setting up a local instance of a database. This local instance 
+is a real database that will  run on your computer.  The server.js file
+(which is the  SERVER side of the website; the client HTML files can't 
+access it) will make the call based on a query in the URL when navigating 
+around the website,  then send the data and the HTML file to the client 
+(ie. your web browser). 
+
+When you make an SQL instance, it is different and distinct from the 
+instances on everyone else's computer. We are going to use the same 
+access methods, upload  the same data, etc. to our instances so they're  
+virtually identical. These instructions will tell you how to do that.
+
+*****************
+***INSTRUCTIONS**
+*****************
+
+FOLLOW THESE CAREFULLY AND EXACTLY
+
+1. Install MySQL Workbench. 
+	- https://dev.mysql.com/downloads/workbench/
+
+2. Install MySQL Community Server
+	- https://dev.mysql.com/downloads/mysql/
+
+3. Run MySQL Community Server It will begin to run immediately, but 
+will first prompt you to insert a password. Make your password "abc123".
+
+4. Run MySQL Workbench. There will be a (+) button. Click it to start 
+to connect to your database  server. There will be some default  options;
+the only thing you need to do is name it something like "localdb".
+
+5. In the folder where you found this file, there  are two SQL files. 
+Copy the contents of initscripts.sql and run it on Workbench. Then run 
+the testscripts.tql on the Workbench. You should see results of your 
+query displayed.  If it does, your database is working.
+
+6. Run "npm build; npm start" in the website folder of the project to 
+start the website. In your console, you should see some example output 
+of the database right away.
+
+IF YOU HAVE PROBLEMS, REACH OUT RIGHT AWAY. We don't have time to waste;
+lets all get on the same page.

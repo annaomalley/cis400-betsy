@@ -5,7 +5,9 @@
     "start": "node Server.js"
   },
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "latest",
+    "html": "^1.0.0",
     "mongodb": "^3.0.4",
     "mysql": "^2.15.0"
   }
