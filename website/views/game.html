@@ -31,8 +31,9 @@
 <div class="jumbotron" id="namep"></div>
 <div class="container">
 
-<div id="containerone" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
-
+<!--<div id="containerone" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>-->
+<h2> Prediction: <%= gamePrediction %></h2>
+<h2> Result: <%= gameResult %></h2>
 <hr>
   <h2>Key Stats</h2>
 
@@ -77,10 +78,18 @@ var team2 = getParameterByName("team2")
 team2 = team2.split('_').join(' ')
 var date = getParameterByName("date")
 date = date.split('_').join('/')
-document.getElementById("namep").innerHTML = "<h2><b>"+team1+" vs. "+team2+"<b><h2><h4>"+date+"</h4>";
+document.getElementById("namep").innerHTML = "<h2><b>"+team2+" at "+team1+"<b><h2><h4>"+date+"</h4>";
 </script>
 
 <script>
+var homeTeamStat1 = <%- JSON.stringify(homeTeamStat1) %>;
+var homeTeamStat2 = <%- JSON.stringify(homeTeamStat2) %>;
+var homeTeamStat3 = <%- JSON.stringify(homeTeamStat3) %>;
+var awayTeamStat1 = <%- JSON.stringify(awayTeamStat1) %>;
+var awayTeamStat2 = <%- JSON.stringify(awayTeamStat2) %>;
+var awayTeamStat3 = <%- JSON.stringify(awayTeamStat3) %>;
+
+/*
 Highcharts.chart('containerone', {
     chart: {
         plotBackgroundColor: null,
@@ -121,7 +130,7 @@ Highcharts.chart('containerone', {
             ['Away Team Wins', 29.2]
         ]
     }]
-});
+})*/
 
 Highcharts.chart('containertwo', {
     chart: {
@@ -155,11 +164,11 @@ Highcharts.chart('containertwo', {
     },
     series: [{
         name: 'Home',
-        data: [7]
+        data: [homeTeamStat1]
 
     }, {
         name: 'Away',
-        data: [3]
+        data: [awayTeamStat1]
 
     }]
 });
@@ -196,11 +205,11 @@ Highcharts.chart('containerthree', {
     },
     series: [{
         name: 'Home',
-        data: [2.4]
+        data: [homeTeamStat2]
 
     }, {
         name: 'Away',
-        data: [2.2]
+        data: [awayTeamStat2]
 
     }]
 });
@@ -237,11 +246,11 @@ Highcharts.chart('containerfour', {
     },
     series: [{
         name: 'Home',
-        data: [1.3]
+        data: [homeTeamStat3]
 
     }, {
         name: 'Away',
-        data: [2.3]
+        data: [awayTeamStat3]
 
     }]
 });

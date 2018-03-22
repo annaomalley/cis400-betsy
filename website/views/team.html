@@ -37,9 +37,6 @@
         <th>Game</th>
         <th>Date</th>
       </tr>
-      <tr>
-        <!--<td><%= gamesHomeTeams[0] %> vs. <%= gamesAwayTeams[0] %></td>-->
-      </tr>
       </table>
     </div>
   </div>
@@ -71,7 +68,7 @@ function getParameterByName(name) {
     var away_team_clean = awayTeam.split(' ').join('_')
     var date_clean = date.split('/').join('_')
     var link = "/game?team1=" + home_team_clean + '&team2='+away_team_clean+'&date='+date_clean
-    td_game.innerHTML = "<a href='" + link + "'>" + homeTeam + " at " + awayTeam + "</a>"
+    td_game.innerHTML = "<a href='" + link + "'>" + awayTeam + " at " + homeTeam + "</a>"
     tr.appendChild(td_game)
     var td_date = document.createElement("td")
     td_date.innerHTML = date

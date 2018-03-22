@@ -79,6 +79,36 @@ function renderTeamPage(req,res) {
 
 }
 
+function renderGamePage(req,res) {
+  var homeTeamName = req.query.team1;
+  var awayTeamName = req.query.team2;
+  var gamedate = req.query.date;
+  var q1 = 'SELECT * FROM games WHERE homeTeamNameRender = \'' + homeTeamName + '\' AND awayTeamNameRender = \'' + awayTeamName + '\'AND gameDateRender = \'' + gamedate + '\';'
+
+      con.query(q1, function (err, result1, fields) {
+        if (err) {
+          res.sendFile(path + "team.html");
+        }
+
+
+            res.render('game.html', {
+            gamePrediction: result1[0].winningTeamPrediction,
+            gameResult: result1[0].gameResult,
+            homeTeamStat1: result1[0].homeTeamStat1,
+            homeTeamStat2: result1[0].homeTeamStat2,
+            homeTeamStat3: result1[0].homeTeamStat3,
+            awayTeamStat1: result1[0].awayTeamStat1,
+            awayTeamStat2: result1[0].awayTeamStat2,
+            awayTeamStat3: result1[0].awayTeamStat3
+
+          });
+
+      });
+
+
+
+}
+
 /*******************/
 /* EXPRESS ROUTING */
 /*******************/
@@ -110,7 +140,8 @@ router.get('/team', function(req,res,next) {
 });
 
 router.get("/game",function(req,res){
-  res.sendFile(path + "game.html");
+  renderGamePage(req,res);
+  //res.sendFile(path + "game.html");
 });
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
