@@ -1,0 +1,11 @@
+USE BETSY;
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (20, 'Real Zaragoza', 'Aragon', 'https://upload.wikimedia.org/wikipedia/en/1/17/Real_Zaragoza_svg_logo.svg');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (21, 'Osasuna', 'Pamplona', 'https://upload.wikimedia.org/wikipedia/en/d/db/Osasuna_logo.svg');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (22, 'Almería', 'Almería', 'https://upload.wikimedia.org/wikipedia/en/2/21/This_is_a_logo_owned_by_UD_Almer%C3%ADa_for_UD_Almer%C3%ADa._Further_details%2C_this_is_the_emblem_for_football_club_UD_Almer%C3%ADa.png');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (23, 'Elche', 'Elche', 'https://upload.wikimedia.org/wikipedia/en/a/a7/Elche_CF_logo.svg');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (24, 'Córdoba', 'Córdoba', 'https://upload.wikimedia.org/wikipedia/en/9/96/C%C3%B3rdoba_CF_logo.svg');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (25, 'Mallorca', 'Palma', 'https://upload.wikimedia.org/wikipedia/en/e/e0/Rcd_mallorca.svg');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (26, 'Granada', 'Granada', 'https://upload.wikimedia.org/wikipedia/en/d/df/Granada_CF_logo.png');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (27, 'Sporting de Gijón', 'Gijón', 'https://upload.wikimedia.org/wikipedia/en/4/48/Real_Sporting_de_Gijon.svg');
+INSERT INTO teams (teamID, teamName, city, teamLogo) VALUES (28, 'Rayo Vallecano', 'Madrid', 'https://upload.wikimedia.org/wikipedia/en/1/17/Rayo_Vallecano_logo.png');
+SELECT * FROM teams;
