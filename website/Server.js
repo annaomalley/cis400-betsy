@@ -38,22 +38,45 @@ function renderHomePage(res) {
   });
 }
 
+
+
 // render the Team page for a given request
 function renderTeamPage(req,res) {
   var teamName = req.query.name;
-  var q = 'SELECT * FROM teams WHERE teamName = \'' + teamName + '\';'
-  con.query(q, function (err, result, fields) {
+  var q1 = 'SELECT * FROM teams WHERE teamName = \'' + teamName + '\';'
+  var q2 = 'SELECT * FROM games WHERE homeTeamName = \'' + teamName + '\' OR awayTeamName = \'' + teamName + '\';'
+  con.query(q1, function (err, result1, fields) {
     if (err) {
       res.sendFile(path + "team.html");
     }
-    console.log(result[0]);
-    console.log(result[0].teamName);
-    let teamsList = [];
-    res.render('team.html', {
-      teamName: result[0].teamName,
-      teamLogo: result[0].teamLogo
-    });
+      con.query(q2, function (err, result2, fields) {
+        if (err) {
+          res.sendFile(path + "team.html");
+        }
+            let homeTeamsList = [];
+            let awayTeamsList = [];
+            let datesList = [];
+            for (var i=0; i<result2.length; i++) {
+              homeTeamsList.push(result2[i].homeTeamName);
+              awayTeamsList.push(result2[i].awayTeamName);
+              datesList.push(result2[i].gameDate);
+            }
+
+
+            res.render('team.html', {
+            teamName: result1[0].teamName,
+            teamLogo: result1[0].teamLogo,
+            gamesHomeTeams: homeTeamsList,
+            gamesAwayTeams: awayTeamsList,
+            gameDates: datesList
+
+          });
+
+      });
+
   });
+
+
 }
 
 /*******************/
@@ -99,7 +122,7 @@ app.use("*",function(req,res){
 
 app.listen(3000,function(){
   console.log("Live at Port 3000");
-  var q = "USE BETSY; SELECT * FROM TEST_TEAMS;"
+  var q = "USE BETSY; SELECT * FROM TEAMS;"
   con.query(q, function (err, result, fields) {
     if (err) {
       res.sendFile(path + "team.html");

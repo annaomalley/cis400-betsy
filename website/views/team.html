@@ -30,14 +30,54 @@
     <div class="jumbotron">
       <b><h1><%= teamName %></h1></b>
     </div>
-    <!--- display list of games here --->
+    <!--- display list of games here -->
     <div class="team-games-box" id="team-games-box">
       <table id="games-table" style="width:100%">
       <tr>
         <th>Game</th>
         <th>Date</th>
       </tr>
+      <tr>
+        <!--<td><%= gamesHomeTeams[0] %> vs. <%= gamesAwayTeams[0] %></td>-->
+      </tr>
+      </table>
     </div>
   </div>
 </body>
+<script>
+
+function getParameterByName(name) {
+  var url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+    results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+  var table = document.getElementById("games-table")
+  var gamesAwayTeams = <%- JSON.stringify(gamesAwayTeams) %>;
+  var gamesHomeTeams = <%- JSON.stringify(gamesHomeTeams) %>;
+  var dates = <%- JSON.stringify(gameDates) %>;
+
+  for (var i = 0; i < gamesHomeTeams.length; i++) {
+    var homeTeam = gamesHomeTeams[i];
+    var awayTeam = gamesAwayTeams[i];
+    var date = dates[i];
+    var tr = document.createElement("tr");
+    var td_game = document.createElement("td")
+    var home_team_clean = homeTeam.split(' ').join('_')
+    var away_team_clean = awayTeam.split(' ').join('_')
+    var date_clean = date.split('/').join('_')
+    var link = "/game?team1=" + home_team_clean + '&team2='+away_team_clean+'&date='+date_clean
+    td_game.innerHTML = "<a href='" + link + "'>" + homeTeam + " at " + awayTeam + "</a>"
+    tr.appendChild(td_game)
+    var td_date = document.createElement("td")
+    td_date.innerHTML = date
+    tr.appendChild(td_date)
+    table.appendChild(tr)
+  }
+</script>
+
 </html>
