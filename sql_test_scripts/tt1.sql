@@ -1,0 +1,5 @@
+USE BETSY;
+#SHOW TABLES;
+#SELECT teamName FROM teams;
+SHOW COLUMNS FROM  teams;
+
