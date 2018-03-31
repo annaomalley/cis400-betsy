@@ -1,0 +1,7 @@
+CREATE DATABASE BETSY;
+USE BETSY; 
+DROP TABLE teams;
+CREATE TABLE teams (
+	teamName VARCHAR(255),  
+	teamLogo VARCHAR(255)
+);
