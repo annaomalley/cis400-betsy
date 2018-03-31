@@ -28,14 +28,14 @@
 </nav>
 </div>
 <br/>
-<div class="jumbotron" id="namep"></div>
+<div class="jumbotron"><div class="container" id="namep"></div></div>
 <div class="container">
 
 <!--<div id="containerone" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>-->
-<h2> Prediction: <%= gamePrediction %></h2>
-<h2> Result: <%= gameResult %></h2>
+<h2 align="center"> Prediction: <%= gamePrediction %></h2>
+<h2 align="center"> Result: <%= gameResult %></h2>
 <hr>
-  <h2>Key Stats</h2>
+  <h2>Key Stats (Average of Last 50 Games)</h2>
 
 <div class="row">
 <div class="col-md-4">
@@ -137,7 +137,7 @@ Highcharts.chart('containertwo', {
         type: 'column'
     },
     title: {
-        text: 'Wins in last 10 games'
+        text: 'Goals Scored'
     },
     xAxis: {
         categories: [
@@ -178,11 +178,11 @@ Highcharts.chart('containerthree', {
         type: 'column'
     },
     title: {
-        text: 'Average Goals'
+        text: 'Attacking-Third Passes'
     },
     xAxis: {
         categories: [
-            'Wins',
+            'Passes',
         ],
         crosshair: true
     },
@@ -219,11 +219,11 @@ Highcharts.chart('containerfour', {
         type: 'column'
     },
     title: {
-        text: 'Average Goals Against'
+        text: 'Passes'
     },
     xAxis: {
         categories: [
-            'Goals',
+            'Passes',
         ],
         crosshair: true
     },
