@@ -24,15 +24,18 @@
         </ul>
       </nav>
     </div>
-    <br/><div>
-      <img id="logo" src="<%= teamLogo %>" border=0 style="display:block; margin-left:auto; margin-right:auto;"/>
-    </div><br/>
+
     <div class="jumbotron">
-      <b><h1><%= teamName %></h1></b>
+      <div class="container" style="text-align: center;">
+        <br/><div>
+          <img id="logo" src="<%= teamLogo %>" border=0 style="display:block;margin-left:auto;margin-right:auto;max-height:250px"/>
+        </div><br/>
+        <b><h1><%= teamName %></h1></b>
+      </div>
     </div>
     <!--- display list of games here -->
     <div class="team-games-box" id="team-games-box">
-      <table id="games-table" style="width:100%">
+      <table id="games-table" style="width:70%;margin-left:auto;margin-right:auto;font-size:150%;">
       <tr>
         <th>Game</th>
         <th>Date</th>

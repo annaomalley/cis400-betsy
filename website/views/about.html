@@ -6,7 +6,6 @@
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/highcharts-more.js"></script>
 <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
-
 <title>About</title>
 
 </head>
@@ -14,38 +13,37 @@
   <div>
   <div class="navbar navbar-inverse">
     <img border="5" src="http://i.imgur.com/lNNxv3J.png">
-  <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+    <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
          <ul class="nav navbar-nav">
         <li><a href="/">Home</a></li>
         <li class="active"><a href="/about">About us<span class="sr-only">(current)</span></a></li>
         <li><a href="/contact">Contact us</a></li>
       </ul>
-</nav>
-</div>
+    </nav>
+  </div>
   <br/>
   <div class="jumbotron">
     <div class="container">
-  <p>
-    Betsy uses data from 1900 La Liga games, scraped from fourfourtwo.com, to predict soccer match outcomes.
-  </p>
-</div>
-</div>
-
-<div class="container">
-
-
-<div id="containerone" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
-
-
-<div id="containertwo" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
-
-
-
+      <p style="font-size:200%">
+        Betsy uses data from roughly 1900 La Liga games, scraped from <i>fourfourtwo.com</i>, to predict soccer match outcomes.
+      </p>
+      <p style="font-size:100%">
+        Using a machine learning model and training it on hundreds of games, we attempt to predict the outcome of
+        the game. This prediction, we hope, will assist people betting on matches earn more money. Our model's
+        success rate is about the same as the Bookies, the people who maintain the betting pool and make a profit
+        off of the results.
+      </p>
+      <p style="font-size:100%">
+        Below, you can see the rates at which we predict different outcomes, and  the rate of success that the Bookies have
+        at predicting the outcomes of games.
+      </p>
+    </div>
   </div>
-
-  </div>
-
-  <script>
+  <div class="container">
+    <div id="containerone" style="min-width:310px;height:400px;max-width:600px;margin: 0 auto"></div>
+      <div id="containertwo" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div></div>
+    </div>
+    <script>
 Highcharts.chart('containerone', {
     chart: {
         plotBackgroundColor: null,
@@ -88,45 +86,19 @@ Highcharts.chart('containerone', {
     }]
 });
 
-// Uncomment to style it like Apple Watch
-/*
-if (!Highcharts.theme) {
-    Highcharts.setOptions({
-        chart: {
-            backgroundColor: 'black'
-        },
-        colors: ['#F62366', '#9DFF02', '#0CCDD6'],
-        title: {
-            style: {
-                color: 'silver'
-            }
-        },
-        tooltip: {
-            style: {
-                color: 'silver'
-            }
-        }
-    });
-}
-// */
-
-
 Highcharts.chart('containertwo', {
-
     chart: {
         type: 'solidgauge',
         height: '110%',
         events: {
         }
     },
-
     title: {
         text: 'Bookie Accuracy',
         style: {
             fontSize: '24px'
         }
     },
-
     tooltip: {
         borderWidth: 0,
         backgroundColor: 'none',
@@ -142,7 +114,6 @@ Highcharts.chart('containertwo', {
             };
         }
     },
-
     pane: {
         startAngle: 0,
         endAngle: 360,
@@ -184,14 +155,12 @@ Highcharts.chart('containertwo', {
             borderWidth: 0
         }]
     },
-
     yAxis: {
         min: 0,
         max: 100,
         lineWidth: 0,
         tickPositions: []
     },
-
     plotOptions: {
         solidgauge: {
             dataLabels: {
@@ -202,7 +171,6 @@ Highcharts.chart('containertwo', {
             rounded: true
         }
     },
-
     series: [{
         name: 'Ladbrokes',
         data: [{
@@ -245,11 +213,6 @@ Highcharts.chart('containertwo', {
         }]
     }]
 });
-
-
-
 </script>
-
-
 </body>
 </html>

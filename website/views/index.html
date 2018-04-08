@@ -12,9 +12,8 @@
   <link rel="stylesheet" href="style/betsystyle.css" />
   <script src="style/awesomplete.js" async></script>
   <script>
-    function search() {
-      var tn = document.getElementById("searchbox").value;
-      if (tn) window.location = '/team?name=' + tn;
+    function search(team) {
+      window.location = '/team?name=' + team.replace(/_/g, " ");
     }
   </script>
 </head>
@@ -38,14 +37,13 @@
     </div>
   </div>
     <div class="container">
+      <h4>Click on a team below to start exploring:</h4>
+      <br>
       <form class="form-inline my-2 my-lg-0">
-        <input id="searchbox" class="dropdown-input form-control mr-sm-2" list="teams" placeholder="Search"/>
-        <datalist id="teams">
-          <% for(let i = 0; i < teams.length; i++) { %>
-            <option><%= teams[i] %></option>
-          <% } %>
-        </datalist>
-        <button type="button" onclick="search()" class="btn">Go!</button>
+        <% for(let i = 0; i < teams.length; i++) { %>
+          <button type="button" onclick=<%= "search(\""+(teams[i][0].replace(/\s/g, '_'))+"\")" %> class="btn"><%= teams[i][0] %></button>
+        <% } %>
+        <br><br>
       </form>
       <div class="row" />
         <hr>

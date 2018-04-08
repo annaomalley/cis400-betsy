@@ -26,12 +26,12 @@ con.connect(function(err) {
 
 // render the home page, passing the list of teams to the page
 function renderHomePage(res) {
-  var q = 'SELECT teamName FROM teams;';
+  var q = 'SELECT * FROM teams;';
   con.query(q, function (err, result, fields) {
     if (err) { res.sendFile(path + "index.html"); }
     let teamsList = [];
     for (var i=0; i<result.length; i++) {
-      teamsList.push(result[i].teamName);
+      teamsList.push([result[i].teamName, result[i].teamLogo]);
     }
     console.log('LIST OF TEAM NAMES: ' + teamsList.toString());
     res.render('index.html', { teams: teamsList });
@@ -90,7 +90,10 @@ function renderGamePage(req,res) {
           res.sendFile(path + "team.html");
         }
 
-
+            var tcolor = "color:green";
+            if (result1[0].winningTeamPrediction != result1[0].gameResult) {
+              tcolor = "color:red"
+            }
             res.render('game.html', {
             gamePrediction: result1[0].winningTeamPrediction,
             gameResult: result1[0].gameResult,
@@ -99,7 +102,8 @@ function renderGamePage(req,res) {
             homeTeamStat3: result1[0].homeTeamStat3,
             awayTeamStat1: result1[0].awayTeamStat1,
             awayTeamStat2: result1[0].awayTeamStat2,
-            awayTeamStat3: result1[0].awayTeamStat3
+            awayTeamStat3: result1[0].awayTeamStat3,
+            color: tcolor
 
           });
 
@@ -153,11 +157,11 @@ app.use("*",function(req,res){
 
 app.listen(3000,function(){
   console.log("Live at Port 3000");
-  var q = "USE BETSY; SELECT * FROM TEAMS;"
+  var q = "USE BETSY;"
   con.query(q, function (err, result, fields) {
-    if (err) {
-      res.sendFile(path + "team.html");
-    }
-    console.log(result);
+     if (err) {
+       res.sendFile(path + "team.html");
+     }
+     console.log(result);
   });
 });

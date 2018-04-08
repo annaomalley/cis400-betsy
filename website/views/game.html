@@ -32,23 +32,28 @@
 <div class="container">
 
 <!--<div id="containerone" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>-->
-<h2 align="center"> Prediction: <%= gamePrediction %></h2>
-<h2 align="center"> Result: <%= gameResult %></h2>
+<h2 align="center"> <b>Prediction</b>: <%= gamePrediction %></h2>
+<h2 align="center" style=<%= color %>> <b>Result</b>: <%= gameResult %></h2>
+
+<br />
 <hr>
-  <h2>Key Stats (Average of Last 50 Games)</h2>
+  <h3 align="center">Key Stats (Average of Last 50 Games)</h2>
+  <br /><br />
 
 <div class="row">
 <div class="col-md-4">
 <div id="containertwo" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
 </div>
+<br /><br />
 <div class="col-md-4">
 <div id="containerthree" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
 </div>
+<br /><br />
 <div class="col-md-4">
 <div id="containerfour" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
 </div>
-
 </div>
+<br />
 
 
 <hr>
@@ -78,7 +83,7 @@ var team2 = getParameterByName("team2")
 team2 = team2.split('_').join(' ')
 var date = getParameterByName("date")
 date = date.split('_').join('/')
-document.getElementById("namep").innerHTML = "<h2><b>"+team2+" at "+team1+"<b><h2><h4>"+date+"</h4>";
+document.getElementById("namep").innerHTML = "<h1><b>"+team2+" at "+team1+"<b><h1><h4>"+date+"</h4>";
 </script>
 
 <script>
@@ -88,49 +93,6 @@ var homeTeamStat3 = <%- JSON.stringify(homeTeamStat3) %>;
 var awayTeamStat1 = <%- JSON.stringify(awayTeamStat1) %>;
 var awayTeamStat2 = <%- JSON.stringify(awayTeamStat2) %>;
 var awayTeamStat3 = <%- JSON.stringify(awayTeamStat3) %>;
-
-/*
-Highcharts.chart('containerone', {
-    chart: {
-        plotBackgroundColor: null,
-        plotBorderWidth: 0,
-        plotShadow: false
-    },
-    title: {
-        text: 'Prediction',
-        align: 'center',
-        verticalAlign: 'middle',
-        y: 40
-    },
-    tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    },
-    plotOptions: {
-        pie: {
-            dataLabels: {
-                enabled: true,
-                distance: -50,
-                style: {
-                    fontWeight: 'bold',
-                    color: 'white'
-                }
-            },
-            startAngle: -90,
-            endAngle: 90,
-            center: ['50%', '75%']
-        }
-    },
-    series: [{
-        type: 'pie',
-        name: 'Browser share',
-        innerSize: '50%',
-        data: [
-            ['Home team Wins',   47,5],
-            ['Draw',       23.3],
-            ['Away Team Wins', 29.2]
-        ]
-    }]
-})*/
 
 Highcharts.chart('containertwo', {
     chart: {
@@ -163,11 +125,11 @@ Highcharts.chart('containertwo', {
         }
     },
     series: [{
-        name: 'Home',
+        name: team1,
         data: [homeTeamStat3]
 
     }, {
-        name: 'Away',
+        name: team2,
         data: [awayTeamStat3]
 
     }]
@@ -204,11 +166,11 @@ Highcharts.chart('containerthree', {
         }
     },
     series: [{
-        name: 'Home',
+        name: team1,
         data: [homeTeamStat2]
 
     }, {
-        name: 'Away',
+        name: team2,
         data: [awayTeamStat2]
 
     }]
@@ -245,11 +207,11 @@ Highcharts.chart('containerfour', {
         }
     },
     series: [{
-        name: 'Home',
+        name: team1,
         data: [homeTeamStat1]
 
     }, {
-        name: 'Away',
+        name: team2,
         data: [awayTeamStat1]
 
     }]
