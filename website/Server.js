@@ -94,6 +94,9 @@ function renderGamePage(req,res) {
             if (result1[0].winningTeamPrediction != result1[0].gameResult) {
               tcolor = "color:red"
             }
+            if (result1[0].gameResult == "TBD") {
+              tcolor = "color:orange"
+            }
             res.render('game.html', {
             gamePrediction: result1[0].winningTeamPrediction,
             gameResult: result1[0].gameResult,
