@@ -23,5 +23,7 @@ INSERT INTO teams (teamName, teamLogo) VALUES ('Espanyol', 'https://upload.wikim
 INSERT INTO teams (teamName, teamLogo) VALUES ('Rayo Vallecano', 'https://upload.wikimedia.org/wikipedia/en/1/17/Rayo_Vallecano_logo.png');
 INSERT INTO teams (teamName, teamLogo) VALUES ('Levante', 'https://upload.wikimedia.org/wikipedia/en/7/7b/Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg');
 INSERT INTO teams (teamName, teamLogo) VALUES ('Getafe', 'https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png');
+INSERT INTO teams (teamName, teamLogo) VALUES ('Girona', 'https://upload.wikimedia.org/wikipedia/en/thumb/9/90/For_article_Girona_FC.svg/150px-For_article_Girona_FC.svg.png');
+
 SELECT * from teams
 
